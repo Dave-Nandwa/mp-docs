@@ -35,5 +35,15 @@ To do so click
 ```
 on your left-hand panel.
 
+## Wordpress Integration
+
+To add the Widget to your Wordpress Site, kindly follow the simple steps outlined here:
+```html
+https://www.wpbeginner.com/wp-tutorials/how-to-easily-add-javascript-in-wordpress-pages-or-posts/
+```
+Don't forget to add the fp_widget div as well! :)
+```html
+<div class="fp_widget"></div>
+```
 ## Help
 If you need help with your integration, please don't hesitate to reach out.
