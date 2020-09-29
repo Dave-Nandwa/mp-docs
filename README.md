@@ -29,10 +29,11 @@ Be sure to add the fp_widget element as well.
 
 To do so, Open up add html element and just put your html code into it.
 
-You can do it by click 
+To do so click
 ```html
 [Add]-[More]-[Html Code]
-``` on your left-hand panel.
+```
+on your left-hand panel.
 
 ## Help
 If you need help with your integration, please don't hesitate to reach out.
