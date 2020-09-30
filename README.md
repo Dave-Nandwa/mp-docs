@@ -21,17 +21,17 @@ To activate the widget and sync it with the main marketplace all you need to do 
 ```
 
 ## Wix Integration
-To add the custom code given to you by an FP Pro Admin, follow the steps here:
-https://support.wix.com/en/article/about-tracking-tools-analytics
-And Select the 'Custom Code' option.
-
-Be sure to add the fp_widget element as well.
-
-To do so, Open up add html element and just put your html code into it.
+Just click on the '+' icon on your left, and then the Embed option, and select Embed a Custom Element, Paste in the code below and it should work immediately:
 
 To do so click
 ```html
-[Add]-[More]-[Html Code]
+<div class="widget_container">
+<div class="fp_widget"></div>
+<script type="text/javascript">
+window.widgetId = "YOUR UNIQUE ID HERE";
+</script>
+<script type="text/javascript" src="https://dl.dropboxusercontent.com/s/mk5kn7jalzx7py5/widget.js?dl=0"></script>
+</div>
 ```
 on your left-hand panel.
 
