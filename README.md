@@ -23,7 +23,6 @@ To activate the widget and sync it with the main marketplace all you need to do 
 ## Wix Integration
 Just click on the '+' icon on your left, and then the Embed option, and select Embed a Custom Element, Paste in the code below and it should work immediately:
 
-To do so click
 ```html
 <div class="widget_container">
 <div class="fp_widget"></div>
