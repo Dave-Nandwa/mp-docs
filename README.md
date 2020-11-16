@@ -44,5 +44,16 @@ Don't forget to add the fp_widget div as well! :)
 ```html
 <div class="fp_widget"></div>
 ```
+
+## Compound Interest Calculator Widgets: Guide
+
+To activate the CIC Widget and sync it with the main site all you need to do is add a div with this class to the corresponding page.
+```html
+<script type="text/javascript">
+    window.widgetId = 'YOUR UNIQUE ID HERE';
+</script>
+<script type="text/javascript" src="https://dl.dropboxusercontent.com/s/mk5kn7jalzx7py5/cic_widget_encrypted.js?dl=0"></script>
+```
+
 ## Help
 If you need help with your integration, please don't hesitate to reach out.
