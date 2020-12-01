@@ -45,6 +45,16 @@ Don't forget to add the fp_widget div as well! :)
 <div class="fp_widget"></div>
 ```
 
+## Google Sites Integration
+
+To add the Widget to your Goole Site, all you need to do is past the link below,
+whilst replacing your widget ID and it should be live immediately.
+Don't forget to add the fp_widget div as well! :)
+```html
+https://marketplace.financialprofessional.com/widget/{{YOUR WIDGET ID HERE}}
+```
+
+
 ## Compound Interest Calculator Widgets: Guide
 
 To activate the CIC Widget and sync it with the main site all you need to do is add a div with this class to the corresponding page.
