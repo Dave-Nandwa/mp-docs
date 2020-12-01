@@ -47,9 +47,8 @@ Don't forget to add the fp_widget div as well! :)
 
 ## Google Sites Integration
 
-To add the Widget to your Goole Site, all you need to do is past the link below,
-whilst replacing your widget ID and it should be live immediately.
-Don't forget to add the fp_widget div as well! :)
+To add the Widget to your Google Site, all you need to do is paste the link below in the embed section,
+whilst replacing the wildcard below with your unqiue Widget ID, and it should be live immediately:
 ```html
 https://marketplace.financialprofessional.com/widget/{{YOUR WIDGET ID HERE}}
 ```
