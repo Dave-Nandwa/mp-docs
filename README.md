@@ -44,6 +44,12 @@ Don't forget to add the fp_widget div as well! :)
 ```html
 <div class="fp_widget"></div>
 ```
+## Wix Site Integration
+
+To add the Widget to your Wix Site, all you need to do is paste the link below using the embed tool,
+whilst replacing the wildcard below with your unqiue Widget ID, and it should be live immediately:
+```html
+https://marketplace.financialprofessional.com/widget/{{YOUR WIDGET ID HERE}}
 
 ## Google Sites Integration
 
