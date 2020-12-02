@@ -20,20 +20,6 @@ To activate the widget and sync it with the main marketplace all you need to do 
 <div class="fp_widget"></div>
 ```
 
-## Wix Integration
-Just click on the '+' icon on your left, and then the Embed option, and select Embed a Custom Element, Paste in the code below and it should work immediately:
-
-```html
-<div class="widget_container">
-<div class="fp_widget"></div>
-<script type="text/javascript">
-window.widgetId = "YOUR UNIQUE ID HERE";
-</script>
-<script type="text/javascript" src="https://dl.dropboxusercontent.com/s/mk5kn7jalzx7py5/widget.js?dl=0"></script>
-</div>
-```
-on your left-hand panel.
-
 ## Wordpress Integration
 
 To add the Widget to your Wordpress Site, kindly follow the simple steps outlined here:
@@ -46,10 +32,10 @@ Don't forget to add the fp_widget div as well! :)
 ```
 ## Wix Site Integration
 
-To add the Widget to your Wix Site, all you need to do is paste the link below using the embed tool,
-whilst replacing the wildcard below with your unqiue Widget ID, and it should be live immediately:
+To add the Widget to your Wix Site, all you need to do is click on the '+' icon on your left, and then the Embed option, and select Embed a Custom Element, Paste in the code link below whilst replacing the wildcard below with your unqiue Widget ID, and it should be live immediately and it should work immediately:
 ```html
 https://marketplace.financialprofessional.com/widget/{{YOUR WIDGET ID HERE}}
+```
 
 ## Google Sites Integration
 
