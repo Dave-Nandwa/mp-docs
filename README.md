@@ -46,7 +46,7 @@ https://marketplace.financialprofessional.com/widget/{{YOUR WIDGET ID HERE}}
 ```
 ## Webflow Integration
 
-For Webflow you have two options, you can create a container and add this Custom Code Component Inside:
+For Webflow you have two options, you can create a container and add this Custom Code Component Inside, but be sure to set the Position Field to Relative for this approach:
 ```html
 <div class="fp_widget"></div>
 <script type="text/javascript">
