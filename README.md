@@ -44,7 +44,30 @@ whilst replacing the wildcard below with your unqiue Widget ID, and it should be
 ```html
 https://marketplace.financialprofessional.com/widget/{{YOUR WIDGET ID HERE}}
 ```
+## Webflow Integration
 
+For Webflow you have two options, you can create a container and add this Custom Code Component Inside:
+```html
+<div class="fp_widget"></div>
+<script type="text/javascript">
+    window.widgetId = 'REPLACE WITH YOUR WIDGET ID';
+</script>
+<script type="text/javascript" src="https://dl.dropboxusercontent.com/s/mk5kn7jalzx7py5/widget.js?dl=0"></script>
+</div>
+```
+# Or you can simply add Custom Code Container and paste the following:
+```html
+<div style="position:relative;width:100%;height:800px" class="fp_container">
+<div class="fp_widget"></div>
+<script type="text/javascript">
+    window.widgetId = 'REPLACE WITH YOUR WIDGET ID';
+</script>
+<script type="text/javascript" src="https://dl.dropboxusercontent.com/s/mk5kn7jalzx7py5/widget.js?dl=0"></script>
+</div>
+```
+# With the first approach you can utilise Webflow's No-Code Tools to modify the conatiner's width and height, and the widget will conform to the dimensions you set.
+
+# The benefit of the second approach is being able to modify the dimensions directly from the HTML.
 
 ## Compound Interest Calculator Widgets: Guide
 
