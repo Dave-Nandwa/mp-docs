@@ -55,7 +55,7 @@ For Webflow you have two options, you can create a container and add this Custom
 <script type="text/javascript" src="https://dl.dropboxusercontent.com/s/mk5kn7jalzx7py5/widget.js?dl=0"></script>
 </div>
 ```
-# Or you can simply add Custom Code Container and paste the following:
+Or you can simply add Custom Code Container and paste the following:
 ```html
 <div style="position:relative;width:100%;height:800px" class="fp_container">
 <div class="fp_widget"></div>
@@ -65,9 +65,9 @@ For Webflow you have two options, you can create a container and add this Custom
 <script type="text/javascript" src="https://dl.dropboxusercontent.com/s/mk5kn7jalzx7py5/widget.js?dl=0"></script>
 </div>
 ```
-# With the first approach you can utilise Webflow's No-Code Tools to modify the conatiner's width and height, and the widget will conform to the dimensions you set.
+With the first approach you can utilise Webflow's No-Code Tools to modify the conatiner's width and height, and the widget will conform to the dimensions you set.
 
-# The benefit of the second approach is being able to modify the dimensions directly from the HTML.
+The benefit of the second approach is being able to modify the dimensions directly from the HTML.
 
 ## Compound Interest Calculator Widgets: Guide
 
