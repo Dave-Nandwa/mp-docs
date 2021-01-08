@@ -53,7 +53,6 @@ For Webflow you have two options, you can create a container and add this Custom
     window.widgetId = 'REPLACE WITH YOUR WIDGET ID';
 </script>
 <script type="text/javascript" src="https://dl.dropboxusercontent.com/s/mk5kn7jalzx7py5/widget.js?dl=0"></script>
-</div>
 ```
 Or you can simply add Custom Code Container and paste the following:
 ```html
